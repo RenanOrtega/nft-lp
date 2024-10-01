@@ -78,3 +78,19 @@
     border-radius: 6px;
     color: #000;
 }
+
+@media (width < 1024px) {
+    .info-wrapper {
+        flex-direction: column;
+    }
+
+    .section__description {
+        max-width: 60ch;
+    }
+}
+
+@media (width < 475px) {
+    .section__title {
+        font-size: 2rem;
+    }
+}
