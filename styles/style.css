@@ -10,6 +10,11 @@
     font: inherit;
 }
 
+.container {
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
 body {
     min-height: 100vh;
     background-color: #06061a;

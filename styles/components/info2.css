@@ -1,0 +1,16 @@
+.info2 {
+    padding-top: 8rem;
+}
+
+.info2-wrapper {
+    display: flex;
+}
+
+.info2--flex1 {
+    flex: 1;
+}
+
+.info2__img {
+    width: 100%;
+    max-width: 500px;
+}
