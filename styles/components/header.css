@@ -24,6 +24,25 @@
     text-decoration: none;
 }
 
+.header__icon-btn {
+    display: none;
+}
+
 .nav__a:hover {
     color: black;
+}
+
+.header__icon {
+    height: 1.5rem;
+    height: 1.5rem;
+}
+
+@media (width < 768px) {
+    .header__nav {
+        display: none;
+    }
+
+    .header__icon-btn {
+        display: block;
+    }
 }

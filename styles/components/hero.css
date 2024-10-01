@@ -56,3 +56,26 @@
     transform: rotate(15deg);
     max-width: 550px;
 }
+
+@media (width < 1024px) {
+    .hero {
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+
+    .hero__title {
+        max-width: 20ch;
+    }
+
+    .hero__img {
+        width: 90%;
+        max-width: 400px;
+        margin-inline: auto;
+    }
+}
+
+@media (width < 475px) {
+    .hero__title {
+        font-size: 2.5rem;
+    }
+}
